@@ -37,6 +37,13 @@ button {
   position: relative;
   margin-top: 120px;
 }
+.rule {
+  width: 500px;
+  padding: 50px;
+  margin: 50px auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
 
 .gameBtn {
   width: 30px;

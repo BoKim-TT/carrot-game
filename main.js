@@ -13,6 +13,7 @@ const scoreBoard = document.querySelector('.count');
 
 const game = document.querySelector('.game');
 const field = document.querySelector('.field');
+const rule = document.querySelector('.rule')
 const fieldPosition = field.getBoundingClientRect();
 const popUp = document.querySelector('.pop-up');
 const replayBtn = document.querySelector('.refresh-btn');
@@ -45,6 +46,7 @@ replayBtn.addEventListener('click', () => {
 function initGame() {
   score = 0;
   field.innerHTML = '';
+  rule.style.display = "none"
   scoreBoard.innerHTML = CARROT_COUNT;
   generateItems('carrot', CARROT_COUNT, 'img/carrot.png');
   generateItems('bug',BUG_COUNT, 'img/bug.png');
