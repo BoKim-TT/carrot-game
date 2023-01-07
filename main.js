@@ -77,7 +77,7 @@ function finishGame(win) {
   stopTimer();
   hideGameButton();
   stopSound(bgAudio);
-  showPopUpWithText(win ? 'You won!' : 'You lost');
+  showPopUpWithText(win ? 'You Won 🚩' : 'You Lost');
 }
 
 function startTimer() {
